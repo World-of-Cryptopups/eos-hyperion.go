@@ -16,4 +16,14 @@ func main() {
 	}
 
 	fmt.Println(health.Version)
+
+	abi, err := client.HistoryGetAbiSnapshot(hyperion.GetAbiSnapshotParams{
+		Contract: "shomaiiblend",
+		Fetch:    true,
+	})
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	fmt.Println(abi.ABI)
 }
