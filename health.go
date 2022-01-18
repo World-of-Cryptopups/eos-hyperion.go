@@ -1,5 +1,7 @@
 package hyperion
 
+import "github.com/TheBoringDude/go-urljoin"
+
 type HealthProps struct {
 	Version     string   `json:"version"`
 	VersionHash string   `json:"version_hash"`
@@ -55,7 +57,7 @@ type ServiceData struct {
 func (h *HyperionClient) GetHealth() (HealthProps, error) {
 	var r = HealthProps{}
 
-	err := h.Client.Get(h.ApiUrl+"/v2/health", &r)
+	err := h.Client.Get(urljoin.UrlJoin(h.ApiUrl, "health"), &r)
 
 	return r, err
 }

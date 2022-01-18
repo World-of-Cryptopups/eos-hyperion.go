@@ -1,2 +1,8 @@
+github.com/TheBoringDude/go-urljoin v0.0.1 h1:cn8uWW8IPlvIG5WOla8VKJXD/RGLtPagRKEqgoQjZmU=
+github.com/TheBoringDude/go-urljoin v0.0.1/go.mod h1:mR5zwmQT9QukYmBx5VLGEpbOVtfZr8Oh0Nl74QphRLg=
 github.com/TheBoringDude/scuffed-go v0.0.1 h1:17lc8euBZJfJyyE58bfeqS+4WolviSiQx2Pa4V1Ewvg=
 github.com/TheBoringDude/scuffed-go v0.0.1/go.mod h1:I6Qja0PfdRxOb82yoe7djCA43B4+Ws2dfQ/Yvxo25DM=
+github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/go-querystring v1.1.0 h1:AnCroh3fv4ZBgVIf1Iwtovgjaw/GiKJo8M8yD/fhyJ8=
+github.com/google/go-querystring v1.1.0/go.mod h1:Kcdr2DB4koayq7X8pmAG4sNG59So17icRSOU623lUBU=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
